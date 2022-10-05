@@ -1,10 +1,10 @@
-# Tutorial_3_Computer_Program
+# Tutorial 3 - Computer_Programming
 
 ## Subject
 * Computer Programming
 
 ## Introduction
-C++ Program to Find Mean, Variance and Standard Deviation using header files
+C++ Program to Find Mean anđ Variance using header files. 
 
 ## Mentor:
 * Nguyen Trung Anh 
