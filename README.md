@@ -1,8 +1,5 @@
 # Tutorial 3 - Computer Programming
 
-## Subject
-* Computer Programming
-
 ## Introduction
 C++ Program to Find Mean and Variance using header files and function overloading. We will learn how to create header files and use them in our program. We will also learn how to use the functions defined in the header file in our program. 
 * This is our topic ![image](https://user-images.githubusercontent.com/82562559/194112422-94da1d4a-e3e5-4e56-a705-595b0b0b91be.png)
