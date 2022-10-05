@@ -47,6 +47,15 @@ double standardDeviation::mean(double number1, double number2, double number3, d
 {
     return (number1 + number2 + number3 + number4) / 4;
 }
+double standardDeviation::mean(std::vector<double> dataSet)
+{
+    double sum = 0;
+    for (size_t i = 0; i < numbersCount; i++)
+    {
+        sum += dataSet[i];
+    }
+    return sum / numbersCount;
+}
 
 double standardDeviation::variance(double number)
 {
@@ -69,4 +78,14 @@ double standardDeviation::variance(double number1, double number2, double number
 {
     double meanData = mean(number1, number2, number3, number4);
     return ((number1 - meanData) * (number1 - meanData) + (number2 - meanData) * (number2 - meanData) + (number3 - meanData) * (number3 - meanData) + (number4 - meanData) * (number4 - meanData)) / 4;
+}
+double standardDeviation::variance(std::vector<double> dataSet)
+{
+    double meanData = mean(dataSet);
+    double sum = 0;
+    for (size_t i = 0; i < numbersCount; i++)
+    {
+        sum += (dataSet[i] - meanData) * (dataSet[i] - meanData);
+    }
+    return sum / numbersCount;
 }
