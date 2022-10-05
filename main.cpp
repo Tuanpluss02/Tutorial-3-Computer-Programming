@@ -2,15 +2,18 @@
 #include "statistics.cpp" // for class standardDeviation
 
 int main()
-{ // declare variables
+{ 
+    // declare variables
     standardDeviation sd;
     size_t count;
     vector<double> dataSet;
     double number;
+    
     // get the number of numbers in the data set
     cout << "Enter the number of numbers in the data set: ";
     cin >> count;
     sd.setNumbersCount(count);
+    
     // get the data set
     cout << "Enter the numbers in the data set: ";
     for (size_t i = 0; i < count; i++)
@@ -20,6 +23,7 @@ int main()
         dataSet.push_back(number);
     }
     sd.setData(dataSet);
+    
     // calculate the mean and variance of the data set
     switch (count)
     {
@@ -44,6 +48,7 @@ int main()
         cout << "The variance of the data set is: " << sd.variance(sd.getData()) << endl;
         break;
     }
+    
     system("pause"); // pause the program to view the output
     return 0;
 }
