@@ -1,4 +1,4 @@
-# Tutorial 3 - Computer_Programming
+# Tutorial 3 - Computer Programming
 
 ## Subject
 * Computer Programming
