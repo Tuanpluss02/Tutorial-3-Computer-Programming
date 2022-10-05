@@ -36,5 +36,5 @@ Variance is calculated by using the following formula:
 * Luong Ngoc Tung - B20DCVT346
 
 ## Thanks
-* Thanks to `Nguyen Trung Anh` - our teacher for giving us this opportunity to learn and practice.
+* Thanks to `Nguyen Trung Anh` - our teacher and the university `Posts and Telecommunications Institute of Technology` for giving us the opportunity to learn and practice.
 
