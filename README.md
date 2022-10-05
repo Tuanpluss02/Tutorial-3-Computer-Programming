@@ -12,13 +12,15 @@ This project has 5 files. The first file is the main.cpp file which contains the
 ## What is the Mean and Variance?
 The term variance refers to a statistical measurement of the spread between numbers in a data set. More specifically, variance measures how far each number in the set is from the mean (average), and thus from every other number in the set. Variance is often depicted by this symbol: σ2. It is used by both analysts and traders to determine volatility and market security.
 Variance is calculated by using the following formula:
+
 ![image](https://user-images.githubusercontent.com/82562559/194113126-82561299-8a06-40dc-9d04-e406a5e867aa.png)
 
 
 ## Prerequisites
 * C++ Programming
-* Functions
+* Function Overloading
 * Header Files
+* 
 ## Our team members
 * Do Ngoc Tuan - B20DCVT330 (Leader)
 * Nguyen Thanh Dat - B20DCVT097
