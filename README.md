@@ -20,7 +20,7 @@ Variance is calculated by using the following formula:
 * C++ Programming
 * Function Overloading
 * Header Files
-* 
+
 ## Our team members
 * Do Ngoc Tuan - B20DCVT330 (Leader)
 * Nguyen Thanh Dat - B20DCVT097
