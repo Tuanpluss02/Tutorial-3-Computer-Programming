@@ -1,8 +1,5 @@
 #include <iostream>       // for cout
-#include <vector>         // for data type vector
 #include "statistics.cpp" // for class standardDeviation
-
-using namespace std;
 
 int main()
 { // declare variables
