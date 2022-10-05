@@ -20,7 +20,7 @@ Variance is calculated by using the following formula:
 * Functions
 * Header Files
 ## Contributors
-* Do Ngoc Tuan - B20DCVT330
+* Do Ngoc Tuan - B20DCVT330 (Leader)
 * Nguyen Thanh Dat - B20DCVT097
 * Nguyen Manh Lam - B20DCVT225
 * Le Cong Luc - B20DCVT242
