@@ -44,6 +44,6 @@ int main()
         cout << "The variance of the data set is: " << sd.variance(sd.getData()) << endl;
         break;
     }
-    system("pause");
+    system("pause"); // pause the program to view the output
     return 0;
 }

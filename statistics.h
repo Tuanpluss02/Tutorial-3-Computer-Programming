@@ -1,8 +1,8 @@
 #ifndef statistics_h // To cause the current source file to be included only once in a single compilation
-#define statistics_h // To cause the current source file to be included only once in a single compilation
+#define statistics_h
 
-#include <vector> // for data type vector
-using namespace std;
+#include <vector>    // for data type vector
+using namespace std; // for size_t and vector
 class standardDeviation
 {
 private:
