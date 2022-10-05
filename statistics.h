@@ -15,7 +15,7 @@ public:
     void setNumbersCount(std::size_t);                                               // set the number of numbers in the data set
     void setData(std::vector<double>);                                               // set the data set
     std::vector<double> getData();                                                   // get the data set
-    size_t getNumbersCount();                                                        // get the number of numbers in the data set
+    std::size_t getNumbersCount();                                                   // get the number of numbers in the data set
     double mean(double number);                                                      // calculate the mean of the data set
     double mean(double number1, double number2);                                     // calculate the mean of two numbers
     double mean(double number1, double number2, double number3);                     // calculate the mean of three numbers

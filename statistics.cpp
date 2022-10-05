@@ -4,13 +4,13 @@
 standardDeviation::standardDeviation()
 {
     numbersCount = 0;
-    memset(&data, 0, sizeof(data));
+    data.clear();
 }
 
 standardDeviation::~standardDeviation()
 {
     numbersCount = 0;
-    memset(&data, 0, sizeof(data));
+    data.clear();
 }
 
 void standardDeviation::setNumbersCount(std::size_t count)
@@ -26,11 +26,6 @@ void standardDeviation::setData(std::vector<double> dataSet)
 std::vector<double> standardDeviation::getData()
 {
     return data;
-}
-
-std::size_t standardDeviation::getNumbersCount()
-{
-    return numbersCount;
 }
 
 double standardDeviation::mean(double number)
@@ -60,15 +55,18 @@ double standardDeviation::variance(double number)
 
 double standardDeviation::variance(double number1, double number2)
 {
-    return (number1 - number2) * (number1 - number2);
+    double mean = (number1 + number2) / 2;
+    return ((number1 - mean) * (number1 - mean) + (number2 - mean) * (number2 - mean)) / 2;
 }
 
 double standardDeviation::variance(double number1, double number2, double number3)
 {
-    return (number1 - number2) * (number1 - number2) + (number1 - number3) * (number1 - number3) + (number2 - number3) * (number2 - number3);
+    double mean = (number1 + number2 + number3) / 3;
+    return ((number1 - mean) * (number1 - mean) + (number2 - mean) * (number2 - mean) + (number3 - mean) * (number3 - mean)) / 3;
 }
 
 double standardDeviation::variance(double number1, double number2, double number3, double number4)
 {
-    return (number1 - number2) * (number1 - number2) + (number1 - number3) * (number1 - number3) + (number1 - number4) * (number1 - number4) + (number2 - number3) * (number2 - number3) + (number2 - number4) * (number2 - number4) + (number3 - number4) * (number3 - number4);
+    double mean = (number1 + number2 + number3 + number4) / 4;
+    return ((number1 - mean) * (number1 - mean) + (number2 - mean) * (number2 - mean) + (number3 - mean) * (number3 - mean) + (number4 - mean) * (number4 - mean)) / 4;
 }
