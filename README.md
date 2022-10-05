@@ -7,7 +7,7 @@
 C++ Program to Find Mean and Variance using header files. We will learn how to create header files and use them in our program. We will also learn how to use the functions defined in the header file in our program. 
 * This is our topic ![image](https://user-images.githubusercontent.com/82562559/194112422-94da1d4a-e3e5-4e56-a705-595b0b0b91be.png)
 
-This project has 3 files. The first file is the main.cpp file which contains the main function. The second file is the header file which contains the function declarations. The third file is the source file which contains the function definitions.
+This project has 5 files. The first file is the main.cpp file which contains the main function. The second file is the header file which contains the function declarations. The third file is the source file which contains the function definitions. The fourth file is the .gitignore file which contains the files that are not to be uploaded to the repository. The fifth file is the README.md file which contains the description of the project.
 
 ## What is the Mean and Variance?
 The term variance refers to a statistical measurement of the spread between numbers in a data set. More specifically, variance measures how far each number in the set is from the mean (average), and thus from every other number in the set. Variance is often depicted by this symbol: σ2. It is used by both analysts and traders to determine volatility and market security.
