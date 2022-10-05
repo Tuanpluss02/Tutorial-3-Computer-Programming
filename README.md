@@ -25,15 +25,15 @@ Variance is calculated by using the following formula:
 * Nguyen Manh Lam - B20DCVT225
 * Le Cong Luc - B20DCVT242
 * Le Duy Hieu - B20DCVT145
-* Nguyen Xuan Quan B20DCVT305
-* Pham Hong Lam B20DCVT226
-* Pham Quang Huy B20DCVT190
+* Nguyen Xuan Quan - B20DCVT305
+* Pham Hong Lam - B20DCVT226
+* Pham Quang Huy - B20DCVT190
 * Tran Han Son - B20DCVT314
-* Do Anh Phuong B20DCVT298
-* Nguyen Minh Son B20DCVT312
-* Ha Viet Manh Quoc B20DCVT309
+* Do Anh Phuong - B20DCVT298
+* Nguyen Minh Son - B20DCVT312
+* Ha Viet Manh Quoc - B20DCVT309
 * Pham Van Hung - B20DCVT198
-* Luong Ngoc Tung B20DCVT346
+* Luong Ngoc Tung - B20DCVT346
 
 ## Thanks
 * Thanks to `Nguyen Trung Anh` - our teacher for giving us this opportunity to learn and practice.
