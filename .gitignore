@@ -1,4 +1,4 @@
 .cph/
+.test/
 *.exe
 test.cpp
-test1.cpp
