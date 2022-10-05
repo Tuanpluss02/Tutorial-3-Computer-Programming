@@ -8,7 +8,7 @@ C++ Program to Find Mean, Variance and Standard Deviation using header files
 
 ## Mentor:
 * Nguyen Trung Anh 
-## Contributing
+## Contributors
 * Do Ngoc Tuan - B20DCVT330
 * Nguyen Thanh Dat - B20DCVT097
 * Nguyen Manh Lam - B20DCVT225
