@@ -2,7 +2,7 @@
 #define statistics_h
 
 #include <vector>    // for data type vector
-using namespace std; // for size_t and vector
+using namespace std; // for size_t, vector and cout
 class standardDeviation
 {
 private:
