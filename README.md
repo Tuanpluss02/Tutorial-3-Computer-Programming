@@ -4,7 +4,7 @@
 * Computer Programming
 
 ## Introduction
-C++ Program to Find Mean and Variance using header files. We will learn how to create header files and use them in our program. We will also learn how to use the functions defined in the header file in our program. 
+C++ Program to Find Mean and Variance using header files and function overloading. We will learn how to create header files and use them in our program. We will also learn how to use the functions defined in the header file in our program. 
 * This is our topic ![image](https://user-images.githubusercontent.com/82562559/194112422-94da1d4a-e3e5-4e56-a705-595b0b0b91be.png)
 
 This project has 5 files. The first file is the main.cpp file which contains the main function. The second file is the header file which contains the function declarations. The third file is the source file which contains the function definitions. The fourth file is the .gitignore file which contains the files that are not to be uploaded to the repository. The fifth file is the README.md file which contains the description of the project.
