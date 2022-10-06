@@ -5,13 +5,16 @@ int main()
 {
     // declare variables
     standardDeviation sd;
-    size_t count;
+    long long count;
     vector<double> dataSet;
     double number;
 
     // get the number of numbers in the data set
-    cout << "Enter the number of numbers in the data set: ";
-    cin >> count;
+    do
+    {
+        cout << "Enter the number of numbers in the data set: ";
+        cin >> count;
+    } while (count < 1 && cout << "The number of numbers in the data set must be greater than 0.\n");
     sd.setNumbersCount(count);
 
     // get the data set
