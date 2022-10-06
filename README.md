@@ -13,6 +13,14 @@ Variance is calculated by using the following formula:
 
 ![image](https://user-images.githubusercontent.com/82562559/194113126-82561299-8a06-40dc-9d04-e406a5e867aa.png)
 
+## How to build/run this project?
+* Open the terminal and run the following commands (for Windows)
+```
+> git clone https://github.com/Tuanpluss02/Tutorial_3_Computer_Programming.git
+> cd Tutorial_3_Computer_Programming
+> g++ main.cpp -o main.exe
+> main.exe
+```
 
 ## Prerequisites
 * C++ Programming
