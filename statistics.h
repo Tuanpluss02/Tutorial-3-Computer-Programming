@@ -1,5 +1,5 @@
-#ifndef statistics_h // To cause the current source file to be included only once in a single compilation
-#define statistics_h
+#ifndef _STATISTICS_H // To cause the current source file to be included only once in a single compilation
+#define _STATISTICS_H
 
 #include <vector>    // for data type vector
 using namespace std; // for size_t, vector and cout
